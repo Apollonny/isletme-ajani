@@ -1,0 +1,55 @@
+{
+  "id": "clinic",
+  "name": "Örnek Klinik",
+  "demo": true,
+  "version": "1",
+  "timezone": "Europe/Istanbul",
+  "tone": "saygılı, açık, yardımsever",
+  "hours": {
+    "1": [
+      "09:00",
+      "18:00"
+    ],
+    "2": [
+      "09:00",
+      "18:00"
+    ],
+    "3": [
+      "09:00",
+      "18:00"
+    ],
+    "4": [
+      "09:00",
+      "18:00"
+    ],
+    "5": [
+      "09:00",
+      "18:00"
+    ],
+    "6": [
+      "09:00",
+      "18:00"
+    ]
+  },
+  "slot_minutes": 30,
+  "services": [
+    {
+      "id": "service",
+      "name": "Muayene randevusu",
+      "name_en": "Consultation",
+      "description": "Örnek klinik randevu hizmeti. İşletme gerçek bilgilerini girmelidir.",
+      "duration": 30,
+      "price_cents": 100000
+    }
+  ],
+  "resources": [
+    {
+      "id": "resource1",
+      "name": "Görevli 1",
+      "capacity": 1,
+      "services": [
+        "service"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "repo": "canberk7/ema-lightning",
+    "pushed_at": "2026-10-10T22:46:35Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "observed_commit": "68f54a187db55bfab119889ee27d14a384d8959b"
+  },
+  {
+    "repo": "ggml-org/whisper.cpp",
+    "pushed_at": "2026-10-12T05:01:56Z",
+    "archived": false,
+    "license": "MIT",
+    "observed_commit": "0c7be696371069e0baa2515ed7aa08d5a5473aa6"
+  },
+  {
+    "repo": "ggml-org/llama.cpp",
+    "pushed_at": "2026-10-14T06:28:25Z",
+    "archived": false,
+    "license": "MIT",
+    "observed_commit": "3eb101360f2666b94910b7c8e3fddbd3fd432487"
+  },
+  {
+    "repo": "snakers4/silero-vad",
+    "pushed_at": "2026-09-29T10:20:28Z",
+    "archived": false,
+    "license": "MIT",
+    "observed_commit": "1e261b036686cd0017d500ee96acd1c4ba572a9d"
+  },
+  {
+    "repo": "pjsip/pjproject",
+    "pushed_at": "2026-10-14T03:58:05Z",
+    "archived": false,
+    "license": "GPL-2.0",
+    "observed_commit": "a6c45f1bdddc78dce26411a132b592ccaff9a945"
+  },
+  {
+    "repo": "sqlite/sqlite",
+    "pushed_at": "2026-10-13T19:06:19Z",
+    "archived": false,
+    "license": "NOASSERTION",
+    "observed_commit": "9919c36b55bf5d37ad8eb67270c001b1d00db0e9"
+  },
+  {
+    "repo": "k2-fsa/sherpa-onnx",
+    "pushed_at": "2026-10-14T03:22:23Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "observed_commit": "1654a3054e0d35f633e4c10c2361fcf3642ad98d"
+  },
+  {
+    "repo": "gammu/gammu",
+    "pushed_at": "2026-10-13T00:49:57Z",
+    "archived": false,
+    "license": "GPL-2.0",
+    "observed_commit": "13fd477bb82385fe2a0795821b4cc83a14ab5ea6"
+  },
+  {
+    "repo": "erdemtuna/normalizer-tr",
+    "pushed_at": "2026-10-14T06:14:03Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "observed_commit": "e82bb205c091ca65d97ea8d24a7dcdb6d4fb511b"
+  },
+  {
+    "repo": "pipecat-ai/pipecat",
+    "pushed_at": "2026-10-14T03:02:41Z",
+    "archived": false,
+    "license": "BSD-2-Clause",
+    "observed_commit": "238eebcbce01e14fcfe699eaca914c6f27b6dd41"
+  }
+]

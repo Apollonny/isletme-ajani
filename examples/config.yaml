@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "business": {
+    "profile": "profiles/shop/profile.json",
+    "facts": "profiles/shop/facts.json"
+  },
+  "storage": {
+    "database": "data/business.sqlite",
+    "retention_days": 30
+  },
+  "models": {
+    "llm": "models/qwen3-1.7b-q4_k_m.gguf",
+    "stt": "models/whisper-base-q5.bin",
+    "tts_tr": "models/ema",
+    "tts_en": "models/kokoro-int8-multi-lang-v1_0"
+  },
+  "resources": {
+    "llm_threads": 3,
+    "stt_threads": 3,
+    "tts_threads": 2,
+    "max_calls": 1,
+    "max_text_sessions": 1,
+    "context_tokens": 2048
+  },
+  "channels": {
+    "sip": {"enabled": false, "port": 5060, "account_uri": "", "registrar": "", "username": "", "password_secret": "sip_password", "staff_uri": "", "bind_address": "127.0.0.1", "language": "tr"},
+    "sms": {"enabled": false, "device": "COM3", "connection": "at"},
+    "whatsapp": {"enabled": false, "listen_url": "https://+:8443/wa/webhook/", "graph_version": "v23.0", "phone_number_id": "", "token_secret": "whatsapp_token", "verify_secret": "whatsapp_verify", "app_secret": "whatsapp_app"}
+  },
+  "plugins": [],
+  "fast_paths": true
+}

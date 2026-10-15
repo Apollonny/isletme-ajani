@@ -1,0 +1,9 @@
+# Dağıtım lisansları
+
+YerelAjan core/GUI/gateway/SIP ve bu projeye ait araçlar GPL-3.0-or-later. YerelAjanSMS bağımsız süreç olarak GPL-2.0-or-later; Gammu aynı lisansa tabidir. PJSIP dosya başlıkları GPL-2.0-or-later seçeneği içerir; GPLv3 birleşimi bu later seçeneğini kullanır. PJSIP ticari lisans da sunar; bu dağıtım açık kaynak seçeneğidir.
+
+EMA model/native port başlangıç referansı Apache-2.0 (NOTICE korunur); Qwen ve Kokoro model ağırlıkları Apache-2.0; normalizer-tr Apache-2.0; llama.cpp, whisper.cpp, Silero ve nlohmann/json MIT; ONNX Runtime MIT ve ThirdPartyNotices; sherpa-onnx Apache-2.0. Kokoro fonemizer eSpeak NG kodu/verileri GPL-3.0-or-later ve kaynak arşivi paket içindedir. Sherpa kaynak/CMake dosyaları ek upstream kaynak arşivinde bulunur. SQLite kamu malıdır. Rust crate’lerinin özgün lisansları vendor dizinlerindedir. LLVM-MinGW runtime LLVM Apache-2.0 WITH LLVM-exception/MIT bileşenleri içerir. NSIS kendi lisansını kullanır; installer uygulamaya ait GPL lisansını değiştirmez.
+
+Microsoft Visual C++ Redistributable imzalı resmî paket kendi Microsoft şartlarına tabidir; GPL lisansı ona uygulanmaz. Installer çalışma önkoşulu için bu offline paketi içerir. Üçüncü tarafların yeniden dağıtımı ilgili lisans/REDIST koşullarına tabidir: [Microsoft resmî dağıtım belgesi](https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files?view=msvc-170). Kaynak paketi model ve Microsoft runtime dosyalarını yeniden üretmez; kurulum payload’ında ayrı bulunurlar.
+
+Orijinal lisanslar `outputs/app/licenses`, model dizinleri ve vendor crate kaynakları içinde korunur. Değiştirilmiş PJSIP/Gammu dosyaları, orijinal kaynak arşivleri ve diff’ler kaynak ZIP’te birlikte sağlanır. İndirilen arşiv ve model dosyalarının SHA256 kayıtları `dependencies.lock.json` ve `models.lock.json` içindedir. Bu dosya bileşen envanteridir; orijinal lisans metinleri esas alınır.

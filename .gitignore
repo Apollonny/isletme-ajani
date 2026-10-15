@@ -1,0 +1,21 @@
+# Generated runtime payloads and release assets
+/outputs/YerelAjan-Setup.exe
+/outputs/YerelAjan-Source.zip
+/outputs/app/config.yaml
+/outputs/app/data/
+/outputs/app/models/
+/outputs/app/prerequisites/
+/outputs/app/*.exe
+/outputs/app/*.dll
+/outputs/reports/*.json
+!/outputs/reports/packaging.json
+/outputs/reports/*.csv
+/outputs/reports/*.wav
+
+# Local build state and downloaded artifacts
+/work/
+/.vs/
+/build/
+/target/
+*.user
+*.suo

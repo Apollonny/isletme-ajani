@@ -1,0 +1,30 @@
+--- a/pjlib/CMakeLists.txt
++++ b/pjlib/CMakeLists.txt
+@@ -67,6 +67,7 @@
+   src/pj/sock_qos_darwin.c
+   src/pj/sock_select.c
+   src/pj/ssl_sock_common.c
++  src/pj/ssl_sock_schannel.c
+   src/pj/ssl_sock_darwin.c
+   src/pj/ssl_sock_dump.c
+   src/pj/ssl_sock_gtls.c
+@@ -307,7 +308,7 @@
+ elseif(PJLIB_WITH_SSL STREQUAL "apple")
+   message(FATAL_ERROR "TODO")
+ elseif(PJLIB_WITH_SSL STREQUAL "schannel")
+-  message(FATAL_ERROR "TODO")
++  target_link_libraries(pjlib-ssl INTERFACE secur32 crypt32 bcrypt)
+ endif()
+ target_link_libraries(pjlib PRIVATE pjlib-ssl)
+ 
+--- a/pjlib/src/pj/ssl_sock_schannel.c
++++ b/pjlib/src/pj/ssl_sock_schannel.c
+@@ -41,7 +41,7 @@
+  */
+ #if defined(PJ_HAS_SSL_SOCK) && PJ_HAS_SSL_SOCK != 0 && \
+     (PJ_SSL_SOCK_IMP == PJ_SSL_SOCK_IMP_SCHANNEL) && \
+-    defined(_MSC_VER) && _MSC_VER>=1900
++    defined(_WIN32)
+ 
+ #define THIS_FILE "ssl_sock_schannel.c"
+ 

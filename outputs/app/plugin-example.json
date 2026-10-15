@@ -1,0 +1,12 @@
+{
+  "name": "inventory",
+  "label": "Ürün stok sorgusu",
+  "executable": "plugins/InventoryPlugin.exe",
+  "permission": "read",
+  "method": "execute",
+  "timeout_ms": 3000,
+  "input_schema": {
+    "required": ["sku"],
+    "properties": {"sku": {"type": "string"}}
+  }
+}

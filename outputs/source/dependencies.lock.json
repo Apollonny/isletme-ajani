@@ -1,0 +1,213 @@
+{
+  "files": [
+    {
+      "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-win.zip",
+      "file": "work/downloads/ninja.zip",
+      "sha256": "07fc8261b42b20e71d1720b39068c2e14ffcee6396b76fb7a795fb460b78dc65",
+      "bytes": 291570
+    },
+    {
+      "url": "https://github.com/ggml-org/whisper.cpp/archive/refs/tags/v1.9.5.zip",
+      "file": "work/downloads/whisper.zip",
+      "sha256": "7a7a73071939f16bc028ad2f713f16f26e37afb6cc155d0f19e3d65705d2b1d9",
+      "bytes": 10640105
+    },
+    {
+      "url": "https://github.com/pjsip/pjproject/archive/refs/tags/2.17.zip",
+      "file": "work/downloads/pjsip.zip",
+      "sha256": "c7f57dae9c13e9b478c61b4e067f8832f1a4b6edab4af80fc8d0515003e9ac84",
+      "bytes": 13221124
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/v0.6.0.zip",
+      "file": "work/downloads/llama.zip",
+      "sha256": "54d8e1f79b4a8bc0ef70b2ece968c0a8afe8030edb8257d64dedfb1169983414",
+      "bytes": 39704805
+    },
+    {
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-v1.13.8-win-x64-shared-MD-Release.tar.bz2",
+      "file": "work/downloads/sherpa.tar.bz2",
+      "sha256": "3e971a04b2e0ba4dfa53d381a006367ce8c9f5f09b4ae00043e9845c2baded22",
+      "bytes": 20494724
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/text.onnx",
+      "file": "outputs/app/models/ema/text.onnx",
+      "sha256": "ad5d4885b5d218f63d976a6e562334ea0194aec54847a6c6482d328e784089f0",
+      "bytes": 4806400
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/sound.onnx",
+      "file": "outputs/app/models/ema/sound.onnx",
+      "sha256": "958364217360cecaa92dc5ff2170d19f3c9f6995fd5e61241ea4068971a46a59",
+      "bytes": 18120655
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/decoder.onnx",
+      "file": "outputs/app/models/ema/decoder.onnx",
+      "sha256": "396c06a8e5711fd40bfd2c3f4f33851feb2ad07a86485833844e0ae8ff637b17",
+      "bytes": 12031945
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/meta.json",
+      "file": "outputs/app/models/ema/meta.json",
+      "sha256": "76627201405723633f5319a208ed7dea63c42acbf3ca997671bccdca9d9186b2",
+      "bytes": 357
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/LICENSE",
+      "file": "outputs/app/models/ema/LICENSE",
+      "sha256": "5c9817c129b98e7bb966bca028c43c19107102ef8e03fe799bffb4354f4ef015",
+      "bytes": 11356
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/NOTICE",
+      "file": "outputs/app/models/ema/NOTICE",
+      "sha256": "498684f051de6523c86c08b6f182f2d69b65df873ed260b96dbe802be4df94d3",
+      "bytes": 1170
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/web/tts.js",
+      "file": "work/reference/web/tts.js",
+      "sha256": "e54e1253b82546b92e4424d785637e7f38f2495d89b17fb9d15e80d6345ceec4",
+      "bytes": 12584
+    },
+    {
+      "url": "https://huggingface.co/ozcancelik/ema-lightning-onnx/resolve/13c431db0356b2f7fafb1247cd823ec0d777c820/export/verify.py",
+      "file": "work/reference/export/verify.py",
+      "sha256": "c3ce983469996eaac203c9f5bf137d93410ffde1b626eaea5463f972352073f3",
+      "bytes": 3405
+    },
+    {
+      "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-x86_64.zip",
+      "file": "work/downloads/cmake.zip",
+      "sha256": "bace36e94b31c68ab6fa295f26dfa11219e0701cf7c94b0284a7d1cb13dac536",
+      "bytes": 54400562
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nlohmann/json/v3.12.0/single_include/nlohmann/json.hpp",
+      "file": "work/deps/include/nlohmann/json.hpp",
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63",
+      "bytes": 953436
+    },
+    {
+      "url": "https://www.sqlite.org/2026/sqlite-amalgamation-3530000.zip",
+      "file": "work/downloads/sqlite.zip",
+      "sha256": "bf3733d7c71b3ab0f6fd8a9ea0052ad87fa037d94333e14ce09878ba3492c3b0",
+      "bytes": 2938107
+    },
+    {
+      "url": "https://github.com/microsoft/onnxruntime/releases/download/v1.31.0/onnxruntime-win-x64-1.31.0.zip",
+      "file": "work/downloads/ort.zip",
+      "sha256": "3958d8a44984160692c1b4ffd0de3cb48f8c39f9d34bb31e433db06e30b82195",
+      "bytes": 82887349
+    },
+    {
+      "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261006/llvm-mingw-20261006-ucrt-x86_64.zip",
+      "file": "work/downloads/llvm.zip",
+      "sha256": "317492c456aa27ee607a5919f1d2d38dcdc1112516a24d0bf4b00d078f52d17a",
+      "bytes": 190836485
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snakers4/silero-vad/1e261b036686/src/silero_vad/data/silero_vad.onnx",
+      "file": "outputs/app/models/silero-vad.onnx",
+      "sha256": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3",
+      "bytes": 2327524
+    },
+    {
+      "url": "https://github.com/erdemtuna/normalizer-tr/archive/refs/tags/v0.4.0.zip",
+      "file": "work/downloads/normalizer.zip",
+      "sha256": "2d0eb5ba676c5b6dbaf4c43baaa01daaf0318f3ae25f0eeeee993ae5adfcdff3",
+      "bytes": 354312
+    },
+    {
+      "url": "https://win.rustup.rs/x86_64",
+      "file": "work/tools/rustup-init.exe",
+      "sha256": "6f4bef66261261fcb43131be8720bab817d403a09edec7455c371974b90bdb7e",
+      "bytes": 12721664
+    },
+    {
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base-q5_1.bin",
+      "file": "outputs/app/models/whisper-base-q5.bin",
+      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
+      "bytes": 59707625
+    },
+    {
+      "url": "https://github.com/gammu/gammu/releases/download/1.45.0/Gammu-1.45.0.zip",
+      "file": "work/downloads/gammu-source.zip",
+      "sha256": "57b7b358421a570fa34a9889c6d10e8d4648470f0e7294b52a1fe1b730cc7422",
+      "bytes": 3965686
+    },
+    {
+      "url": "https://sourceforge.net/projects/nsis/files/NSIS%203/3.13/nsis-3.13.zip/download",
+      "file": "work/downloads/nsis.zip",
+      "sha256": "ba63dffc4410ee89193e1cb5a41989991bd77c61068da17e3156d136b7b0b3d8",
+      "bytes": 2363925
+    },
+    {
+      "url": "https://github.com/k2-fsa/sherpa-onnx/archive/refs/tags/v1.13.8.zip",
+      "file": "work/downloads/sherpa-source.zip",
+      "sha256": "b63b7613812346f2d1396a3a7f94accd47539e3dadc3ea385ba6474c70ab9897",
+      "bytes": 15384893
+    },
+    {
+      "url": "https://github.com/csukuangfj/espeak-ng/archive/ed530aa113046142eb5115cf2fc9157854d0ffe1.zip",
+      "file": "work/downloads/espeak-source.zip",
+      "sha256": "e4e262cbe34f7fe21f91f1ba3397f2728e1f30eafbae7853f2b753a9ed13f0dd",
+      "bytes": 18011501
+    },
+    {
+      "url": "https://download.visualstudio.microsoft.com/download/pr/990c720a-46ce-4dc7-87b9-c2eb615d34b9/CC0FF0EB1DC3F5188AE6300FAEF32BF5BEEBA4BDD6E8E445A9184072096B713B/VC_redist.x64.exe",
+      "file": "work/downloads/vc_redist.x64.exe",
+      "sha256": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b",
+      "bytes": 25635768
+    },
+    {
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-int8-multi-lang-v1_0.tar.bz2",
+      "file": "work/downloads/kokoro-int8.tar.bz2",
+      "sha256": "4c3052abaa60943a341f193888cf6abd68787dae6ab8ae5c925a706caa247e4e",
+      "bytes": 132303094
+    },
+    {
+      "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/dcb19155b962dbb6389f4691a982043a8e651022/Qwen_Qwen3-1.7B-Q4_K_M.gguf",
+      "file": "outputs/app/models/qwen3-1.7b-q4_k_m.gguf",
+      "sha256": "72c5c3cb38fa32d5256e2fe30d03e7a64c6c79e668ad84057e3bd66e250b24fb",
+      "bytes": 1282439584
+    }
+  ],
+  "upstream": {
+    "pjsip/pjproject": {
+      "tag": "2.17",
+      "commit": "5a457451fa2712ba18e12b01738e8ff3af2b26fd"
+    },
+    "ggml-org/llama.cpp": {
+      "tag": "v0.6.0",
+      "commit": "d81235049384534c167caea52b85a694f6103d14"
+    },
+    "ggml-org/whisper.cpp": {
+      "tag": "v1.9.5",
+      "commit": "d1be6fde11ac6e0407606b4e42fe72d34add8037"
+    },
+    "gammu/gammu": {
+      "tag": "1.45.0",
+      "commit": "17178d4ed8aaf090344bcc46f36cc35837f82d8e"
+    },
+    "erdemtuna/normalizer-tr": {
+      "tag": "v0.4.0",
+      "commit": "d0bc1bc6523faa4f6257642190bb723b7f4274a5"
+    },
+    "k2-fsa/sherpa-onnx": {
+      "tag": "v1.13.8",
+      "commit": "11afbd009a7f8c08f4bcf2fc1b265d0df4670fbf"
+    },
+    "bartowski/Qwen_Qwen3-1.7B-GGUF": {
+      "revision": "dcb19155b962dbb6389f4691a982043a8e651022"
+    },
+    "ggerganov/whisper.cpp": {
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1"
+    },
+    "ozcancelik/ema-lightning-onnx": {
+      "revision": "13c431db0356b2f7fafb1247cd823ec0d777c820"
+    }
+  }
+}

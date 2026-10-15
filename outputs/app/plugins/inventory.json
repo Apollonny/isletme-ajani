@@ -1,0 +1,4 @@
+[
+  {"sku":"BAT01","name":"Örnek pil","stock":3,"demo":true},
+  {"sku":"CASE01","name":"Örnek kılıf","stock":0,"demo":true}
+]

@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "date": "2026-10-15",
+  "platform": "Windows x64",
+  "installer": {
+    "file": "YerelAjan-Setup.exe",
+    "bytes": 1504978472,
+    "sha256": "33a6897ff8128fff670f31657dc3727621c0a398882d60e8a34e91ab432f065b",
+    "nsis": "3.13",
+    "compileExitCode": 0,
+    "embeddedDataBytes": 1663253361,
+    "nsisCrc32": "6471086A"
+  },
+  "installerSmokeTest": {
+    "mode": "silent /TEST into work/install-test",
+    "installedFiles": 439,
+    "appDoctor": "passed; all model hashes valid",
+    "appAssertions": 38,
+    "uninstallExitCode": 0,
+    "preserved": [
+      "config.yaml",
+      "6 profile JSON files",
+      "data directory",
+      "plugins directory"
+    ],
+    "removed": [
+      "application binaries",
+      "test marker",
+      "uninstaller"
+    ]
+  },
+  "sourceArchive": {
+    "file": "YerelAjan-Source.zip",
+    "bytes": 445410451,
+    "sha256": "4604cb2ad73b04b1a6a4241738611effa87ebc1c71a626e14974dc69b1a8cb48",
+    "entries": 481,
+    "expandedBytes": 445295031,
+    "allEntriesReadForCrc": true,
+    "offlineSourcePrepare": "passed",
+    "rustVendorBuild": "passed; release build in 7.32 seconds"
+  },
+  "liveChannels": {
+    "externalPbx": "not available; not tested",
+    "physicalSimModem": "not available; not tested",
+    "metaWhatsApp": "credentials and HTTPS endpoint not available; not tested"
+  }
+}

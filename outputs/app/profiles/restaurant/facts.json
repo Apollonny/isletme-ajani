@@ -1,0 +1,27 @@
+[
+  {
+    "id": "hours-tr",
+    "lang": "tr",
+    "text": "Çalışma saatlerimiz pazartesi ile cumartesi arasında 09:00–18:00. Pazar kapalıyız."
+  },
+  {
+    "id": "hours-en",
+    "lang": "en",
+    "text": "We are open Monday to Saturday, 09:00–18:00. We are closed on Sundays."
+  },
+  {
+    "id": "address-tr",
+    "lang": "tr",
+    "text": "Adres: Örnek Mahallesi, Örnek Sokak, No: 1. Bu adres demo verisidir."
+  },
+  {
+    "id": "address-en",
+    "lang": "en",
+    "text": "Address: Example Street, No. 1. This is demonstration data."
+  },
+  {
+    "id": "services-en",
+    "lang": "en",
+    "text": "Our service: Table reservation. Duration: 90 minutes. Demonstration profile; actual terms must be entered by the business."
+  }
+]

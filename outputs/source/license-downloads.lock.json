@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "file": "outputs/app/licenses/GPL-3.0.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "bytes": 35149
+  },
+  {
+    "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/v1.13.8/LICENSE",
+    "file": "outputs/app/licenses/sherpa-onnx-LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "url": "https://raw.githubusercontent.com/snakers4/silero-vad/1e261b036686/LICENSE",
+    "file": "outputs/app/licenses/Silero-LICENSE.txt",
+    "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b",
+    "bytes": 1075
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nlohmann/json/v3.12.0/LICENSE.MIT",
+    "file": "outputs/app/licenses/nlohmann-LICENSE.txt",
+    "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603",
+    "bytes": 1076
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-1.7B/resolve/main/LICENSE",
+    "file": "outputs/app/licenses/Qwen-model-LICENSE.txt",
+    "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "bytes": 11343
+  },
+  {
+    "url": "https://raw.githubusercontent.com/espeak-ng/espeak-ng/master/COPYING",
+    "file": "outputs/app/licenses/espeak-ng-COPYING.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "bytes": 35147
+  },
+  {
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-23.1.3/llvm/LICENSE.TXT",
+    "file": "outputs/app/licenses/LLVM-LICENSE.txt",
+    "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+    "bytes": 15141
+  }
+]
